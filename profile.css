@@ -1,6 +1,9 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+@import url('https://fonts.googleapis.com/css?family=Lobster');
 body{
 	margin: 0;
 	background-color: #f4f4f4;
+	font-family: 'Ubuntu', sans-serif;
 }
 #banner {
 	background-color: #3c644f;
@@ -100,6 +103,7 @@ input#search {
 	text-transform: uppercase;
 	align-self: center;
 	flex: 1;
+	font-family: 'Lobster', cursive;
 }
 .card-picture {
 	flex: 3;
