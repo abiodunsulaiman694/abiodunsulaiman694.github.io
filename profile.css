@@ -1,0 +1,139 @@
+body{
+	margin: 0;
+	background-color: #f4f4f4;
+}
+#banner {
+	background-color: #3c644f;
+	width: 100%;
+	height: 200px;
+	display: flex;
+	flex-direction:column;
+	justify-content: center;
+	align-items: center;
+	/*
+	justify -- primary
+	align -- secondary
+	*/
+}
+.logo {
+	color: #ffffff;
+	text-transform: uppercase;
+	font-size: 50px;
+}
+.tag {
+	color: #888888;
+	text-transform: uppercase;
+	font-size: 24px;
+}
+nav {
+	width: 100%;
+	height: 70px;
+	background-color: #1b1b1b;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+nav a{
+	color: #ffffff;
+	text-transform: uppercase;
+	text-decoration: none;
+	margin-right: 20px;
+}
+nav a:hover {
+	color: #538167;
+	text-decoration: underline;
+}
+.container {
+	width: 90%;
+	margin-left: 5%;
+}
+.searchbox {
+	background-color: #ffffff;
+	width: 100%;
+	height: 80px;
+	margin: 40px 0px 20px 0px;
+	padding: 20px;
+	display: flex;
+	align-items: center;
+}
+input#search {
+	height: 34px;
+	background-color: #eeeeee;
+	color: #aaaaaa;
+	border: none;
+	font-size: 15px;
+	margin-right: 20px;
+	flex: 3;
+}
+.searchbtn {
+	background-color: #578164;
+	color: #ffffff;
+	height: 34px;
+	font-size: 13px;
+	text-transform: uppercase;
+	flex: 1;
+}
+.row {
+	display: flex;
+}
+.content {
+	flex: 2;
+	margin-right: 20px;
+	border-style: dashed;
+	border-color: palevioletred;
+}
+.meta {
+	flex: 1;
+	border-style: dotted;
+	border-color: #578164;
+}
+.card {
+	background-color: #ffffff;
+	height: 500px;
+	padding: 20px;
+	display: flex;
+	flex-direction: column;
+}
+.card-title {
+	color: #343434;
+	font-size: 34px;
+	text-transform: uppercase;
+	align-self: center;
+	flex: 1;
+}
+.card-picture {
+	flex: 3;
+}
+.card-content {
+	flex: 2;
+	padding: 10px 0 10px 0;
+	font-size: 1.5rem;
+	overflow: hidden;
+}
+.card-footer {
+	flex: 1;
+	align-self: center;
+	padding-top: 20px;
+}
+.card-footer a{
+	font-size: 2rem;
+	text-decoration: none;
+	color: #343434;
+	text-transform: uppercase;
+}
+.card-footer a:hover{
+	color: #578164;
+	border-bottom-style: double;
+	border-bottom-color: #578164;
+}
+.faded{
+ color: #999999;
+ font-size: 1.2rem;
+}
+
+
+
+
+
+
+

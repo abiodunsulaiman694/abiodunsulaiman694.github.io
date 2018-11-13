@@ -1,0 +1,13 @@
+.story {
+	color: red;
+	font-size: 24px;
+}
+.list{
+	font-weight: bold; 
+}
+body {
+	background-color: #45de2a;
+}
+#menu {
+	background-color: papayawhip;
+}
