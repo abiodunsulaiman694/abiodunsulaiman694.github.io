@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Ubuntu');
 @import url('https://fonts.googleapis.com/css?family=Lobster');
+@import url('https://fonts.googleapis.com/css?family=Allerta+Stencil');
 body{
 	margin: 0;
 	background-color: #f4f4f4;
@@ -22,6 +23,7 @@ body{
 	color: #ffffff;
 	text-transform: uppercase;
 	font-size: 50px;
+	font-family: 'Allerta Stencil', sans-serif;
 }
 .tag {
 	color: #888888;
@@ -90,13 +92,13 @@ input#search {
 	border-style: dotted;
 	border-color: #578164;
 }
-.card {
+/*.card {
 	background-color: #ffffff;
 	height: 500px;
 	padding: 20px;
 	display: flex;
 	flex-direction: column;
-}
+}*/
 .card-title {
 	color: #343434;
 	font-size: 34px;

@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>My Profile</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="profile.css?">
 </head>
 <body>
@@ -16,23 +17,43 @@
 
 <nav>
 	<a href="index.html">Homepage</a>
+	<a href="contact.html">Contact us</a>
 </nav>
 
 <div class="container">
+	<div class="alert alert-success">
+		Alert from
+		<a href="https://getbootstrap.com" target="_blank" class="alert-link">Bootstrap</a>
+		<span class="badge badge-danger">9</span>
+	</div>
 	<div class="searchbox">
 		<input type="text" name="search" id="search" />
-		<button class="searchbtn">Search</button>
+		<button class="btn btn-success btn-lg">Search</button>
 	</div>
 
 	<div class="row">
 		<div class="content">
 			<div class="card">
+			  <img class="card-img-top" src="learn.jpg" alt="Card image cap">
+			  <div class="card-body">
+			    <h5 class="card-title">Education is key</h5>
+			    <p class="card-text">
+			    	Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			    	tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			    	quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			    	consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			    	cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			    	proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+			    </p>
+			    <a href="#" class="btn btn-primary">Go somewhere</a>
+			  </div>
+			</div>
+			<div class="card">
+				<img class="card-img-top" src="learn.jpg" alt="Card image cap">
 				<div class="card-title">
 					A Child must always learn
 				</div>
-				<div class="card-picture" style="background-image: url('learn.jpg'); background-size: cover;">
-					
-				</div>
+  
 				<div class="card-content">
 					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
