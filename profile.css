@@ -137,9 +137,22 @@ input#search {
  font-size: 1.2rem;
 }
 
-
-
-
-
-
-
+#slider {
+	height: 400px;
+	width: 100%;
+	margin-bottom: 20px;
+}
+.slider-img {
+	width: 100%;
+	height: 400px;
+}
+.gallery {
+	margin-bottom: 50px;
+}
+.gallery_img {
+	width: 100%;
+	height: 170px;
+}
+.gallery a {
+	margin-bottom: 20px;
+}

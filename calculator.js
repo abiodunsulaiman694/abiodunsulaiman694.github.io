@@ -1,6 +1,7 @@
 let runningTotal = 0;
 let buffer = "0";
 const screen = document.querySelector(".screen");
+//const screen = $(".screen");
 let lastOperator;
 
 function buttonClick(value) {
